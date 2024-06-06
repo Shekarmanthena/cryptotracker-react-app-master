@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
+
+* {
+    margin: 0;
+    font-family: "Quicksand";
+    color: #333;
+    
+  }
+
+body{
+    background-color: #03ecfc;
+}
+
+  .coin-container{
+    max-width: 350px;
+    margin: 40px auto;
+    padding: 20px;
+    box-shadow: 1px 3px 5px #333;
+    background-color: white;
+  }
+
+  .coin-container:hover{
+    box-shadow: 3px 5px 7px #1e94e3;
+  }
+
+  .title{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 20px;
+    border-bottom: 2px solid #333;
+    font-size: x-large;
+  }
+
+  .title img{
+    width: 40px;
+    height: 40px;
+  }
+
+  .details{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    margin: 15px 10px;
+   
+  }
+
+  .red{
+    color :red;
+  }
+
+  .green{
+    color :green;
+  }
+
+  .nav{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .head{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin: 10px;
+    padding: 15px;
+
+  }
+
+  .inputform{
+    margin: 10px;
+  }
+
+  .inputform input{
+    padding: 15px;
+    max-width: 600px;
+    font-size: large;
+  }
+
+  .details h4{
+    font-size: small;
+  }
+
+  .details h5{
+    font-size: small;
+  }
+
+  @media screen and (min-width: 600px) {
+    .coin-container{
+        max-width: 700px;
+    }
+    .details h4{
+        font-size: large;
+      }
+    
+      .details h5{
+        font-size: large;
+      }
+    
+  }
